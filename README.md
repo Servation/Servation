@@ -1,25 +1,17 @@
 <div align="center">
   <p width="100%" style="border-radius: 10px">
-   Jeffrey Saelee - Software Engineer
+   Jeffrey Saelee
   <p/>
 </div>
-
-<br />
 
 <div align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Roboto+Mono&weight=500&size=24&duration=3000&pause=1000&color=333333&center=true&vCenter=true&width=600&lines=System.out.println(%22Hello%2C+World!%22);Extruding+layer+1+of+400...;Architecting+Cloud+Solutions" alt="Typing SVG" />
   </a>
 </div>
-
 <div align="center">
   <h3>Software Engineer | Maker</h3>
-  <p>
-    Based in <b>Visalia, CA</b>. Specializing in high-availability systems and cloud-native workflows.<br>
-  </p>
-
 </div>
-
 <br />
 
 <table align="center" border="0" cellpadding="10">
@@ -48,8 +40,6 @@
   </tr>
 </table>
 
-<br />
-
 ## 💼 Professional Experience
 
 ###  Apple Inc. (Contract via Wipro)
@@ -59,32 +49,50 @@
 <br />
 
 ## 🚀 Featured Projects
-### 🎓 Study Buddy
-*Role: Scrum Master & Full Stack Dev | Tech: Java, Angular, MySQL*
+### 🎓 [Study Buddy](https://github.com/Revature-Capstone-1349)
 
-> A full-stack LMS built to manage student groups.
+A web application for collaborative learning.
 
-- Leadership: Served as Scrum Master for four groups, leading Agile ceremonies to ensure on-time delivery.
+#### Tech Stack
+* Frontend: Angular
+* Backend: Java, Spring Boot
+* Database: MySQL
+* Build Tool: Maven
 
-- Development: Built the full-stack architecture using Spring Boot (Backend) and Angular (Frontend).
+#### Features
+* Data storage and management through MySQL.
+* Integration between Spring Boot REST API and Angular UI.
+* Development managed through sprint cycles.
 
-### 💸 Expense Reimbursement System
-*Role: Backend Developer | Tech: Java, Hibernate, Servlets*
 
-> A secure system for finance managers to process tickets.
+### 💸 [Expense Reimbursement System](https://github.com/Servation/Expense-Reimbursement-System)
 
-- Data Integrity: Orchestrated database connections using Hibernate to preserve data accuracy.
+A management tool for employee expense claims and manager approvals.
 
-- Security: Implemented secure RESTful APIs for managing employee reimbursement requests.
+#### Tech Stack
+* Language: Java, JavaScript
+* ORM: Hibernate
+* Database: MySQL
+* UI: HTML, CSS, Bootstrap
 
-### 🎮 Jump Game
-*Role: Solo Developer | Tech: Visual Basic, Physics Engine*
+#### Features
+* RESTful APIs for logic and data transfer.
+* Automated database connection management.
+* Interface compatible with multiple devices.
 
-> My entry point into logic and algorithmic thinking.
+### 🎮 [Deadbolt Defense](https://github.com/Servation/DeadboltDefense)
 
-- Physics Engine: Built custom collision, jump, and gravity physics from scratch.
+A wave-based defense game with a progression system.
 
-- Design: Designed progressive scaffolding levels with increasing difficulty.
+#### Tech Stack
+* Language: Visual Basic .NET
+* Database: Microsoft Access
+
+#### Features
+* Shop system with data storage in Microsoft Access.
+* Architecture for physics and NPC state logic.
+* Rendering pipeline for performance with many objects.
+* Mechanics for combat and damage logic.
 
 <br />
 
