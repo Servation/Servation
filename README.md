@@ -35,7 +35,7 @@
 
 ## 💼 Professional Experience
 
-###  Apple Inc. (Contract via Wipro)
+### 🍎 Apple Inc. (Contract via Wipro)
 
 *August 2022 - August 2025*
 
