@@ -42,20 +42,22 @@
 <br />
 
 ## 🚀 Featured Projects
-### 🎓 [Study Buddy](https://github.com/Revature-Capstone-1349)
+### 🗂️ [Memora](https://github.com/Servation/Memora)
 
-A web application for collaborative learning.
+A secure fullstack flashcard learning application featuring user-specific study decks, interactive 3D flip cards, debounced search filters, and an integrated study break timer.
 
 #### Tech Stack
-* Frontend: Angular
-* Backend: Java, Spring Boot
-* Database: MySQL
+* Frontend: React (Vite)
+* Backend: Java, Spring Boot, Spring Security (BCrypt)
+* Database: H2 Database
 * Build Tool: Maven
+* Styling: Vanilla CSS (Glassmorphism & Dark Mode)
 
 #### Features
-* Data storage and management through MySQL.
-* Integration between Spring Boot REST API and Angular UI.
-* Development managed through sprint cycles.
+* Secure token-based session authentication with custom security filters.
+* Auto-seeded Countries & Capitals study deck upon registration.
+* Case-insensitive debounced query search across card questions and answers.
+* Interactive 3D flip card carousel with countdown break timer alerts.
 
 
 ### 💸 [Expense Reimbursement System](https://github.com/Servation/Expense-Reimbursement-System)
