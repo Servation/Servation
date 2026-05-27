@@ -42,6 +42,22 @@
 <br />
 
 ## 🚀 Featured Projects
+
+### 🤖 [job-search-agent](https://github.com/Servation/job-search-agent)
+An agentic job search platform designed to automate candidate matching, applicant tracking system (ATS) evaluation, and pipeline logging.
+
+**Tech Stack**
+* **Frontend**: React, TypeScript, Tailwind CSS
+* **Backend**: Node.js, Express, TypeScript
+* **AI Integration**: Gemini API, OpenAI-compatible local endpoints (LM Studio, Ollama)
+
+**Features**
+* Engineered a multi-channel sourcing pipeline to scrape open career boards across public endpoints including Greenhouse, Lever, and Workday.
+* Implemented client-side evaluation rules using title-based filters and regex description scanning to protect LLM context windows and reduce API costs.
+* Designed a sequential verification loop with structured timeouts to prevent rate-limiting and handle local LLM server congestion.
+* Built an integrated Express backend proxy to handle cross-origin resource sharing (CORS) restrictions for all external LLM communications.
+
+
 ### 🗂️ [Memora](https://github.com/Servation/Memora)
 
 A secure fullstack flashcard learning application featuring user-specific study decks, interactive 3D flip cards, debounced search filters, and an integrated study break timer.
@@ -59,36 +75,19 @@ A secure fullstack flashcard learning application featuring user-specific study 
 * Case-insensitive debounced query search across card questions and answers.
 * Interactive 3D flip card carousel with countdown break timer alerts.
 
+### 🎮 [OscillaMortis](https://github.com/Servation/OscillaMortis)
+A real-time, web-based 2D survival game featuring dynamic environments, state-driven enemy AI, and procedural audio generation.
 
-### 💸 [Expense Reimbursement System](https://github.com/Servation/Expense-Reimbursement-System)
+**Tech Stack**
+* **Language**: TypeScript
+* **Build Tool**: Vite
+* **Graphics & Sound**: HTML5 Canvas 2D, Web Audio API
 
-A management tool for employee expense claims and manager approvals.
-
-#### Tech Stack
-* Language: Java, JavaScript
-* ORM: Hibernate
-* Database: MySQL
-* UI: HTML, CSS, Bootstrap
-
-#### Features
-* RESTful APIs for logic and data transfer.
-* Automated database connection management.
-* Interface compatible with multiple devices.
-
-### 🎮 [Deadbolt Defense](https://github.com/Servation/DeadboltDefense)
-
-A wave-based defense game with a progression system.
-
-#### Tech Stack
-* Language: Visual Basic .NET
-* Database: Microsoft Access
-
-#### Features
-* Shop system with data storage in Microsoft Access.
-* Architecture for physics and NPC state logic.
-* Rendering pipeline for performance with many objects.
-* Mechanics for combat and damage logic.
-
+**Features**
+* Architected a modular game loop orchestrating depth-sorted rendering, keyboard input management, and entity state transitions.
+* Developed a zero-asset audio engine utilizing the Web Audio API to synthesize ambient soundscapes and game event audio in real time.
+* Designed a scalable entity component system managing physics, spatial collision handling, and unique AI movement patterns for nine distinct mobile types.
+* Implemented a wave progression framework with transactional shop systems using unified key-interact mechanics.
 <br />
 
 
