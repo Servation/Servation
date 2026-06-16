@@ -1,58 +1,49 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────────────┐
-│ jeffrey@servation:~ (active session)                                [ - + x ]│
+│  jeffrey@servation:~                                                [—][□][×]│
 ├──────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
 │  $ whoami                                                                    │
 │                                                                              │
-│  Name       : Jeffrey Saelee (Servation)                                     │
-│  Role       : Software Engineer | Maker                                      │
-│  Location   : Visalia, CA                                                    │
-│  Contact    : gwfds123@gmail.com                                             │
-│  LinkedIn   : https://linkedin.com/in/Jeffrey-Saelee                         │
+│  Name       : Jeffrey Saelee                                                 │
+│  Role       : Software Engineer | AI & Full-Stack                            │
+│  Location   : California                                                     │
+│  LinkedIn   : linkedin.com/in/Jeffrey-Saelee                                 │
 │                                                                              │
-│  $ cat skills.json                                                           │
-│                                                                              │
-│  [AI & INTELLIGENT]                                                          │
-│     LLM Integration | AI Agent Orchestration | RAG Validation & Testing      │
-│                                                                              │
-│  [LANGUAGES & FRAMEWORKS]                                                    │
-│     Java | Python | JavaScript | TypeScript | Spring Boot | React | Angular  │
-│                                                                              │
-│  [DATABASES & CLOUD]                                                         │
-│     AWS | Docker | Kubernetes | MongoDB | Cassandra | MySQL                  │
-│                                                                              │
-│  [OBSERVABILITY & TESTING]                                                   │
-│     Prometheus | Grafana | Splunk | JMeter | Postman | Git | Maven           │
-│                                                                              │
-│  $ cat experience/apple.log                                                  │
-│                                                                              │
-│  [LOG] Aug 2022 - Aug 2025: Software Engineer at Apple Inc.                  │
-│   ├── IDE Extensions : Custom PyCharm/IntelliJ extensions  [SAVED 20% TIME]  │
-│   ├── RAG Pipeline   : Validated LLM generation workflow   [TEST COV +30%]   │
-│   ├── Data Migration : Transitioned Cassandra -> MongoDB   [1M+ TXN/DAY]     │
-│   ├── Load Validation: Scaled K8s clusters via JMeter      [2x CAPACITY]     │
-│   └── Observability  : Built Splunk/Grafana framework      [MTTR -35%]       │
-│                                                                              │
-│  $ ls -la projects/                                                          │
-│                                                                              │
-│  [PROJECT] OTTR HFT Cockpit [STATUS: ACTIVE]                                 │
-│     Stack: React | FastAPI | Spring Boot | Prometheus                        │
-│     - Architected multi-tier quantitative dashboard for crypto trading       │
-│     - Developed Python/FastAPI Agent Gateway for multi-agent LLM consensus   │
-│                                                                              │
-│  [PROJECT] job-search-agent [STATUS: ACTIVE]                                 │
-│     Stack: React | Node.js | Express | Gemini API                            │
-│     - Engineered agentic ATS evaluation and candidate matching dashboard     │
-│     - Built Node.js crawler sourcing endpoints with fair shuffling           │
-│                                                                              │
-│  [PROJECT] Memora [STATUS: ACTIVE]                                           │
-│     Stack: React | Java | Spring Boot | H2 Database                          │
-│     - Designed secure token-based session auth and seeded study decks        │
-│     - Coded debounced query search and interactive 3D flip card carousel     │
-│                                                                              │
-│  [PROJECT] OscillaMortis [STATUS: ACTIVE]                                    │
-│     Stack: TypeScript | Vite | Canvas 2D | Web Audio API                     │
-│     - Developed modular depth-sorted game loop and scale physics ECS         │
-│     - Coded real-time sound synthesizer using Web Audio API                  │
 └──────────────────────────────────────────────────────────────────────────────┘
 ```
+
+---
+
+### `$ cat skills.json`
+
+```json
+{
+  "languages":  [ "Python", "Java", "TypeScript", "JavaScript", "C" ],
+  "frameworks": [ "React", "Spring Boot", "FastAPI", "Express", "Vite" ],
+  "tools":      [ "Docker", "Prometheus", "Grafana", "Git", "SQLite" ],
+  "ai":         [ "OpenAI", "Gemini", "Ollama", "MCP", "Multi-Agent Systems" ]
+}
+```
+
+---
+
+### `$ ls ~/featured/`
+
+| Project | Description | Tech |
+|---------|-------------|------|
+| [**OTTR HFT Cockpit**](https://github.com/Servation/ottr-hft-quant-cockpit) | Crypto HFT dashboard with 5 microservices, multi-agent AI trade consensus, real-time order book simulation, Discord bridge with semantic memory, and a full observability stack | React · FastAPI · Spring Boot · Docker · Prometheus |
+| [**Lore Spinner**](https://github.com/Servation/lore-spinner) | Text-based narrative RPG with a multi-agent AI Dungeon Master, 4 autonomous subagents, dynamic story spines, anti-lock loop detection, and D&D 5e SRD via MCP | Python · Multi-Agent AI · MCP |
+| [**Job Search Agent**](https://github.com/Servation/job-search-agent) | AI-powered job search cockpit that crawls ATS platforms (Greenhouse, Lever, Ashby, Workday), evaluates listings against your resume via Gemini, and auto-discovers Workday tenants dynamically | TypeScript · React · Express · Gemini |
+| [**Memora**](https://github.com/Servation/Memora) | Full-stack flashcard app with AI note parsing (PDF/TXT/MD → cards), HMAC-SHA256 stateless auth, 3D flip card UI, and multi-LLM support (OpenAI, Gemini, Ollama) | Java 17 · Spring Boot · React · Vite |
+
+---
+
+### `$ ls ~/other/`
+
+| Project | Description |
+|---------|-------------|
+| [**Sprite Maker**](https://github.com/Servation/sprite-maker) | AI sprite sheet compiler using Google Veo 3.1 with chroma key and engine coordinate export |
+| [**GridClipper**](https://github.com/Servation/GridClipper) | Desktop video thumbnail grid generator with local AI vision filtering and interactive clip extraction |
+| [**Vesper**](https://github.com/Servation/vesper-context-reducer) | TF-IDF context reducer for LLMs with native MCP server integration |
+| [**OscillaMortis**](https://github.com/Servation/OscillaMortis) | 2D survival slasher with dynamic biomes, wave system, and spell casting on HTML5 Canvas |
