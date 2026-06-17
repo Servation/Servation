@@ -1,61 +1,99 @@
 ```text
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  jeffrey@servation:~                                                [—][□][×]│
-├──────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  $ whoami                                                                    │
-│                                                                              │
-│  Name       : Jeffrey Saelee                                                 │
-│  Role       : Software Engineer | AI & Full-Stack                            │
-│  Location   : California                                                     │
-│  LinkedIn   : linkedin.com/in/Jeffrey-Saelee                                 │
-│                                                                              │
-│  $ cat skills.json                                                           │
-│  {                                                                           │
-│    "languages":  ["Python", "Java", "TypeScript", "JavaScript", "C"],        │
-│    "frameworks": ["React", "Spring Boot", "FastAPI", "Express", "Vite"],     │
-│    "tools":      ["Docker", "Prometheus", "Grafana", "Git", "SQLite"],       │
-│    "ai":         ["OpenAI", "Gemini", "Ollama", "MCP", "Multi-Agent"]        │
-│  }                                                                           │
-│                                                                              │
-└──────────────────────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────────┐
+│  jeffrey@servation:~                                              [—][□][×]│
+├────────────────────────────────────────────────────────────────────────────┤
+│                                                                            │
+│  $ whoami                                                                  │
+│                                                                            │
+│  Name       : Jeffrey Saelee                                               │
+│  Role       : Software Engineer | AI & Full-Stack                          │
+│  Location   : California                                                   │
+│  LinkedIn   : linkedin.com/in/Jeffrey-Saelee                               │
+│                                                                            │
+│  $ cat skills.json                                                         │
+│  {                                                                         │
+│    "languages":  ["Python", "Java", "TypeScript", "JavaScript", "C"],      │
+│    "frameworks": ["React", "Spring Boot", "FastAPI", "Express", "Vite"],   │
+│    "tools":      ["Docker", "Prometheus", "Grafana", "Git", "SQLite"],     │
+│    "ai":         ["OpenAI", "Gemini", "Ollama", "MCP", "Multi-Agent"]      │
+│  }                                                                         │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-### `$ ls ~/featured/`
+#### ⟩ [OTTR — AI Agent Trading System](https://github.com/Servation/ottr-hft-quant-cockpit)
 
-> #### ⟩ [OTTR HFT Cockpit](https://github.com/Servation/ottr-hft-quant-cockpit)
-> Crypto HFT dashboard with 5 microservices, multi-agent AI trade consensus, real-time order book simulation, Discord bridge with semantic memory, and a full observability stack.
->
-> <kbd>React</kbd> <kbd>FastAPI</kbd> <kbd>Spring Boot</kbd> <kbd>Docker</kbd> <kbd>Prometheus</kbd>
+```text
+┌────────────────────────────────────────────────────────────────────────────┐
+│                                                                            │
+│  Crypto trading dashboard driven by 8 autonomous AI agents operating       │
+│  out of a Discord channel. Features an LLM intent router for live          │
+│  CEO-to-agent communication, semantic long-term memory via TF-IDF,         │
+│  an internal limit order book with automated stop-loss triggers,           │
+│  and a React web terminal that mirrors the Discord trading floor.          │
+│                                                                            │
+│  Tech:  React · FastAPI · Discord.py · CoinGecko · Vesper TF-IDF           │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+```
 
-> #### ⟩ [Lore Spinner](https://github.com/Servation/lore-spinner)
-> Text-based narrative RPG with a multi-agent AI Dungeon Master, 4 autonomous subagents, dynamic story spines, anti-lock loop detection, and D&D 5e SRD via MCP.
->
-> <kbd>Python</kbd> <kbd>Multi-Agent AI</kbd> <kbd>MCP</kbd>
+#### ⟩ [Lore Spinner — Multi-Agent Narrative RPG](https://github.com/Servation/lore-spinner)
 
-> #### ⟩ [Job Search Agent](https://github.com/Servation/job-search-agent)
-> AI-powered job search cockpit that crawls ATS platforms (Greenhouse, Lever, Ashby, Workday), evaluates listings against your resume via Gemini, and auto-discovers Workday tenants dynamically.
->
-> <kbd>TypeScript</kbd> <kbd>React</kbd> <kbd>Express</kbd> <kbd>Gemini</kbd>
+```text
+┌────────────────────────────────────────────────────────────────────────────┐
+│                                                                            │
+│  Text-based narrative RPG powered by a multi-agent AI Dungeon Master       │
+│  with 4 autonomous subagents (World Keeper, Faction Weaver, Encounter      │
+│  Architect, Lore Keeper). Features dynamic story spines, anti-lock         │
+│  loop detection, autonomous faction projects, and D&D 5e SRD via MCP.      │
+│                                                                            │
+│  Tech:  Python · Multi-Agent AI · MCP · D&D 5e SRD                         │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+```
 
-> #### ⟩ [Memora](https://github.com/Servation/Memora)
-> Full-stack flashcard app with AI note parsing (PDF/TXT/MD → cards), HMAC-SHA256 stateless auth, 3D flip card UI, and multi-LLM support (OpenAI, Gemini, Ollama).
->
-> <kbd>Java 17</kbd> <kbd>Spring Boot</kbd> <kbd>React</kbd> <kbd>Vite</kbd>
+#### ⟩ [Job Search Agent — AI ATS Crawler](https://github.com/Servation/job-search-agent)
 
----
+```text
+┌────────────────────────────────────────────────────────────────────────────┐
+│                                                                            │
+│  AI-powered job search cockpit that crawls ATS platforms (Greenhouse,      │
+│  Lever, Ashby, Workday) directly, evaluates listings against your          │
+│  resume via Gemini, and auto-discovers Workday tenants dynamically.        │
+│  Features paced batching, company match quotas, and YoE safeguards.        │
+│                                                                            │
+│  Tech:  TypeScript · React · Express · Gemini                              │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+```
 
-<details>
-<summary><b><code>$ ls ~/other/</code></b></summary>
-<br>
+#### ⟩ [Memora — AI Flashcard Engine](https://github.com/Servation/Memora)
 
-| Project | Description |
-|---------|-------------|
-| [**Sprite Maker**](https://github.com/Servation/sprite-maker) | AI sprite sheet compiler using Google Veo 3.1 with chroma key and engine coordinate export |
-| [**GridClipper**](https://github.com/Servation/GridClipper) | Desktop video thumbnail grid generator with local AI vision filtering and interactive clip extraction |
-| [**Vesper**](https://github.com/Servation/vesper-context-reducer) | TF-IDF context reducer for LLMs with native MCP server integration |
-| [**OscillaMortis**](https://github.com/Servation/OscillaMortis) | 2D survival slasher with dynamic biomes, wave system, and spell casting on HTML5 Canvas |
+```text
+┌────────────────────────────────────────────────────────────────────────────┐
+│                                                                            │
+│  Full-stack flashcard app with AI note parsing (PDF/TXT/MD → cards),       │
+│  HMAC-SHA256 stateless auth, 3D flip card UI, and multi-LLM support        │
+│  (OpenAI, Gemini, Ollama). Uses cognitive science formatting to            │
+│  generate atomic cards following the Minimum Information Principle.        │
+│                                                                            │
+│  Tech:  Java 17 · Spring Boot · React · Vite · Apache PDFBox               │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+```
 
-</details>
+#### ⟩ [Sprite Maker](https://github.com/Servation/sprite-maker) · [GridClipper](https://github.com/Servation/GridClipper) · [Vesper](https://github.com/Servation/vesper-context-reducer) · [OscillaMortis](https://github.com/Servation/OscillaMortis)
+
+```text
+┌────────────────────────────────────────────────────────────────────────────┐
+│  $ ls ~/other/                                                             │
+│                                                                            │
+│  sprite-maker/      AI sprite sheet compiler (Google Veo 3.1)              │
+│  GridClipper/       Desktop video grid + AI vision filtering               │
+│  vesper/            TF-IDF context reducer with MCP server                 │
+│  OscillaMortis/     2D survival slasher on HTML5 Canvas                    │
+│                                                                            │
+└────────────────────────────────────────────────────────────────────────────┘
+```
