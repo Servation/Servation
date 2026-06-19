@@ -12,7 +12,7 @@
 │                                                                            │
 │  $ cat skills.json                                                         │
 │  {                                                                         │
-│    "languages":  ["Python", "Java", "TypeScript", "JavaScript", "C"],      │
+│    "languages":  ["Python", "Java", "TypeScript", "JavaScript"],      │
 │    "frameworks": ["React", "Spring Boot", "FastAPI", "Express", "Vite"],   │
 │    "tools":      ["Docker", "Prometheus", "Grafana", "Git", "SQLite"],     │
 │    "ai":         ["OpenAI", "Gemini", "Ollama", "MCP", "Multi-Agent"]      │
