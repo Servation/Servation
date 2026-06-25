@@ -28,13 +28,13 @@
 ```text
 ┌────────────────────────────────────────────────────────────────────────────┐
 │                                                                            │
-│  Crypto trading dashboard driven by 8 autonomous AI agents operating       │
-│  out of a Discord channel. Features an LLM intent router for live          │
-│  CEO-to-agent communication, semantic long-term memory via TF-IDF,         │
-│  an internal limit order book with automated stop-loss triggers,           │
-│  and a React web terminal that mirrors the Discord trading floor.          │
+│  Crypto trading desk run by 7 autonomous AI agents that meet, debate,      │
+│  and vote on trades in a Discord channel. An LLM intent router relays      │
+│  live CEO directives to the floor; semantic memory recalls past meetings   │
+│  via local LLM embeddings. An autonomous risk engine enforces stop-loss,   │
+│  drawdown breakers, and position caps. A React terminal mirrors it all.    │
 │                                                                            │
-│  Tech:  React · FastAPI · Discord.py · CoinGecko · Vesper TF-IDF           │
+│  Tech:  React · FastAPI · Discord.py · LM Studio · CoinGecko/Kraken        │
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
 ```
