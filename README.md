@@ -15,7 +15,7 @@
 │    "languages":  ["Python", "Java", "TypeScript", "JavaScript"],           │
 │    "frameworks": ["React", "Spring Boot", "FastAPI", "Express", "Vite"],   │
 │    "tools":      ["Docker", "Prometheus", "Grafana", "Git", "SQLite"],     │
-│    "ai":         ["OpenAI", "Gemini", "Ollama", "MCP", "Multi-Agent"]      │
+│    "ai":         ["OpenAI API", "Claude Code", "Local LLM", "Multi-Agent"] │
 │  }                                                                         │
 │                                                                            │
 └────────────────────────────────────────────────────────────────────────────┘
