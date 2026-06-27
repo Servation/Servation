@@ -1,99 +1,57 @@
-```text
-┌────────────────────────────────────────────────────────────────────────────┐
-│  jeffrey@servation:~                                              [—][□][×]│
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│  $ whoami                                                                  │
-│                                                                            │
-│  Name       : Jeffrey Saelee                                               │
-│  Role       : Software Engineer | AI & Full-Stack                          │
-│  Location   : California                                                   │
-│  LinkedIn   : linkedin.com/in/Jeffrey-Saelee                               │
-│                                                                            │
-│  $ cat skills.json                                                         │
-│  {                                                                         │
-│    "languages":  ["Python", "Java", "TypeScript", "JavaScript"],           │
-│    "frameworks": ["React", "Spring Boot", "FastAPI", "Express", "Vite"],   │
-│    "tools":      ["Docker", "Prometheus", "Grafana", "Git", "SQLite"],     │
-│    "ai":         ["OpenAI API", "Claude Code", "Local LLM", "Multi-Agent"] │
-│  }                                                                         │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-```
+# Jeffrey Saelee
+
+**Software Engineer · AI/Agentic Systems · Full-Stack**
+
+> Building autonomous multi-agent systems that trade, search, and reason — not just wrap APIs.
 
 ---
 
-#### ⟩ [OTTR — AI Agent Trading System](https://github.com/Servation/ottr-hft-quant-cockpit)
+## What I Do
 
-```text
-┌────────────────────────────────────────────────────────────────────────────┐
-│                                                                            │
-│  Crypto trading desk run by 7 autonomous AI agents that meet, debate,      │
-│  and vote on trades in a Discord channel. An LLM intent router relays      │
-│  live CEO directives to the floor; semantic memory recalls past meetings   │
-│  via local LLM embeddings. An autonomous risk engine enforces stop-loss,   │
-│  drawdown breakers, and position caps. A React terminal mirrors it all.    │
-│                                                                            │
-│  Tech:  React · FastAPI · Discord.py · LM Studio · CoinGecko/Kraken        │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-```
+I build **agentic AI systems** - multi-agent architectures with consensus mechanics, tool use, memory, and real-time human-in-the-loop control. My work sits at the intersection of LLM engineering, distributed systems, and full-stack development.
 
-#### ⟩ [Lore Spinner — Multi-Agent Narrative RPG](https://github.com/Servation/lore-spinner)
+Most recently, I built a 7-agent autonomous trading floor that debates, votes, and executes in Discord, and an AI job-search agent that crawls enterprise ATS systems to match listings against a resume.
 
-```text
-┌────────────────────────────────────────────────────────────────────────────┐
-│                                                                            │
-│  Text-based narrative RPG powered by a multi-agent AI Dungeon Master       │
-│  with 4 autonomous subagents (World Keeper, Faction Weaver, Encounter      │
-│  Architect, Lore Keeper). Features dynamic story spines, anti-lock         │
-│  loop detection, autonomous faction projects, and D&D 5e SRD via MCP.      │
-│                                                                            │
-│  Tech:  Python · Multi-Agent AI · MCP · D&D 5e SRD                         │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-```
+Previously: **Software Engineer at Apple (via Wipro)**, where I built an AI coding assistant with agentic capabilities as an IDE extension for IntelliJ and VS Code.
 
-#### ⟩ [Job Search Agent — AI ATS Crawler](https://github.com/Servation/job-search-agent)
+---
 
-```text
-┌────────────────────────────────────────────────────────────────────────────┐
-│                                                                            │
-│  AI-powered job search cockpit that crawls ATS platforms (Greenhouse,      │
-│  Lever, Ashby, Workday) directly, evaluates listings against your          │
-│  resume via Gemini, and auto-discovers Workday tenants dynamically.        │
-│  Features paced batching, company match quotas, and YoE safeguards.        │
-│                                                                            │
-│  Tech:  TypeScript · React · Express · Gemini                              │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-```
+## 🔥 Featured Projects
 
-#### ⟩ [Memora — AI Flashcard Engine](https://github.com/Servation/Memora)
+### [OTTR - AI Agent Trading System](https://github.com/Servation/ottr-hft-quant-cockpit)
+Seven autonomous AI agents living in a Discord trading floor. Consensus meetings with debate phases, CEO directive routing, dual-trigger scheduling, and short/long-term memory. React web terminal as a live window into the trading floor.
 
-```text
-┌────────────────────────────────────────────────────────────────────────────┐
-│                                                                            │
-│  Full-stack flashcard app with AI note parsing (PDF/TXT/MD → cards),       │
-│  HMAC-SHA256 stateless auth, 3D flip card UI, and multi-LLM support        │
-│  (OpenAI, Gemini, Ollama). Uses cognitive science formatting to            │
-│  generate atomic cards following the Minimum Information Principle.        │
-│                                                                            │
-│  Tech:  Java 17 · Spring Boot · React · Vite · Apache PDFBox               │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-```
+### [Job Search Agent](https://github.com/Servation/job-search-agent)
+Agentic job search cockpit that crawls Greenhouse, Lever, Ashby, and Workday ATS systems directly. Evaluates listings against your resume, scores matches, and tracks your submission pipeline. React + TypeScript + Express + Gemini.
 
-#### ⟩ [Sprite Maker](https://github.com/Servation/sprite-maker) · [GridClipper](https://github.com/Servation/GridClipper) · [Vesper](https://github.com/Servation/vesper-context-reducer) · [OscillaMortis](https://github.com/Servation/OscillaMortis)
+### [Vesper - Context Reducer](https://github.com/Servation/vesper-context-reducer)
+Solves LLM context drowning with pure mathematics. TF-IDF-based extraction of the most topically dense paragraphs from your notes, compiled into XML context packets optimized for LLM ingestion. No embeddings, no cloud, 100% private. Streamlit dashboard.
 
-```text
-┌────────────────────────────────────────────────────────────────────────────┐
-│  $ ls ~/other/                                                             │
-│                                                                            │
-│  sprite-maker/      AI sprite sheet compiler (Google Veo 3.1)              │
-│  GridClipper/       Desktop video grid + AI vision filtering               │
-│  vesper/            TF-IDF context reducer with MCP server                 │
-│  OscillaMortis/     2D survival slasher on HTML5 Canvas                    │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-```
+### [AuraSkill - Hot-Swappable Agent Skill Runtime](https://github.com/Servation/AuraSkill)
+Drop-in skill folders that an LLM agent can dynamically load and execute. Progressive context loading (metadata → instructions → resources) to save tokens. Sandboxed subprocess execution. Based on published arXiv research.
+
+### [Kindred - Eldercare Coordination Concierge](https://github.com/Servation/Kindred)
+Privacy-first, on-device multi-agent system for sandwich-generation caregivers. Coordinates appointments, medications, and family availability using Google ADK + MCP + local Gemma. Medical and financial data never leaves the device.
+
+### [Lore Spinner - Multi-Agent DM](https://github.com/Servation/lore-spinner)
+Text-based narrative RPG where a Dungeon Master agent orchestrates four subagents (World Keeper, Faction Weaver, Encounter Architect, Lore Keeper). Adaptive story spine, anti-loop detection, genre-agnostic settings.
+
+---
+
+## 🛠️ Tech Stack
+
+**Languages:** Java, Python, TypeScript, JavaScript
+**Backend:** Spring Boot, Express, Node.js
+**Frontend:** React, Angular, Vite
+**AI/LLM:** Multi-agent orchestration, MCP, RAG, TF-IDF retrieval, tool use, consensus mechanics, Google ADK, Gemini, OpenAI, Ollama, local models
+**Data:** MongoDB, H2, PostgreSQL
+**Tools:** Docker, Git, Maven, REST APIs, Streamlit
+
+---
+
+## Currently
+
+Actively seeking software engineering roles focused on **AI/agentic systems, full-stack, or backend**.-
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/jeffrey-saelee/)
+-
