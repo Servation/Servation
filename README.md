@@ -2,7 +2,7 @@
 
 **Software Engineer · AI/Agentic Systems · Full-Stack**
 
-> Building autonomous multi-agent systems that trade, search, and reason — not just wrap APIs.
+> Building autonomous multi-agent systems that trade, search, and reason - not just wrap APIs.
 
 ---
 
