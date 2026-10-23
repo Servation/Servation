@@ -1,57 +1,40 @@
 # Jeffrey Saelee
 
-**Software Engineer · AI/Agentic Systems · Full-Stack**
+**Software Engineer · Backend · AI Agents & MCP Tools**
 
-> Building autonomous multi-agent systems that trade, search, and reason - not just wrap APIs.
+I build backend services and the LLM tooling around them: agents, RAG, and MCP servers in Python, Java and TypeScript, with React front ends.
 
----
-
-## What I Do
-
-I build **agentic AI systems** - multi-agent architectures with consensus mechanics, tool use, memory, and real-time human-in-the-loop control. My work sits at the intersection of LLM engineering, distributed systems, and full-stack development.
-
-Most recently, I built a 7-agent autonomous trading floor that debates, votes, and executes in Discord, and an AI job-search agent that crawls enterprise ATS systems to match listings against a resume.
-
-Previously: **Software Engineer at Apple (via Wipro)**, where I built an AI coding assistant with agentic capabilities as an IDE extension for IntelliJ and VS Code.
+Previously **Software Engineer at Apple (contract via Wipro), 2022–2025**. I was one of the first engineers on an internal LLM coding assistant for PyCharm and IntelliJ that grew to 10,000+ engineers, and I helped migrate a 1M+ transactions/day audit app from Cassandra to MongoDB, cutting most queries from 10s+ to under 1s.
 
 ---
 
-## 🔥 Featured Projects
+## Featured Projects
 
-### [OTTR - AI Agent Trading System](https://github.com/Servation/ottr-hft-quant-cockpit)
-Seven autonomous AI agents living in a Discord trading floor. Consensus meetings with debate phases, CEO directive routing, dual-trigger scheduling, and short/long-term memory. React web terminal as a live window into the trading floor.
+### [job-search-mcp](https://github.com/Servation/job-search-mcp)
+MCP App for Claude Desktop that searches real job boards and ATS platforms, has Claude score each posting for fit, and shows a ranked board with one-click triage. One run of sweeps sourced about 3,700 postings. *TypeScript, MCP*
 
-### [Job Search Agent](https://github.com/Servation/job-search-agent)
-Agentic job search cockpit that crawls Greenhouse, Lever, Ashby, and Workday ATS systems directly. Evaluates listings against your resume, scores matches, and tracks your submission pipeline. React + TypeScript + Express + Gemini.
+### [Kindred](https://github.com/Servation/Kindred) · Google + Kaggle AI Agents Intensive capstone
+Privacy-first multi-agent assistant for family caregivers. A local LLM plans each action, and deterministic Python validates and runs it, with approval gates for sensitive changes. *Python, Google ADK, MCP, local Gemma*
 
-### [Vesper - Context Reducer](https://github.com/Servation/vesper-context-reducer)
-Solves LLM context drowning with pure mathematics. TF-IDF-based extraction of the most topically dense paragraphs from your notes, compiled into XML context packets optimized for LLM ingestion. No embeddings, no cloud, 100% private. Streamlit dashboard.
+### [memora-mcp](https://github.com/Servation/memora-mcp) and [Memora](https://github.com/Servation/Memora)
+Spaced-repetition flashcards two ways: an MCP App where Claude builds decks from a conversation and reviews them as inline flip cards, and a full-stack app that turns uploaded notes into flashcards. *TypeScript, MCP · Java, Spring Boot, React*
 
-### [AuraSkill - Hot-Swappable Agent Skill Runtime](https://github.com/Servation/AuraSkill)
-Drop-in skill folders that an LLM agent can dynamically load and execute. Progressive context loading (metadata → instructions → resources) to save tokens. Sandboxed subprocess execution. Based on published arXiv research.
+### [Trivium](https://github.com/Servation/trivium)
+Multiplayer party trivia game with AI-generated, fact-checked questions. *Next.js, Supabase, OpenRouter*
 
-### [Kindred - Eldercare Coordination Concierge](https://github.com/Servation/Kindred)
-Privacy-first, on-device multi-agent system for sandwich-generation caregivers. Coordinates appointments, medications, and family availability using Google ADK + MCP + local Gemma. Medical and financial data never leaves the device.
-
-### [Lore Spinner - Multi-Agent DM](https://github.com/Servation/lore-spinner)
-Text-based narrative RPG where a Dungeon Master agent orchestrates four subagents (World Keeper, Faction Weaver, Encounter Architect, Lore Keeper). Adaptive story spine, anti-loop detection, genre-agnostic settings.
+**Also:** [AuraSkill](https://github.com/Servation/AuraSkill) (hot-swappable agent skill runtime), [Vesper](https://github.com/Servation/vesper-context-reducer) (TF-IDF context reducer for LLMs), [Lore Spinner](https://github.com/Servation/lore-spinner) (multi-agent Dungeon Master), and a Pokémon TCG battle agent for a Kaggle challenge (Monte Carlo search with imitation-learned priors).
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-**Languages:** Java, Python, TypeScript, JavaScript
-**Backend:** Spring Boot, Express, Node.js
-**Frontend:** React, Angular, Vite
-**AI/LLM:** Multi-agent orchestration, MCP, RAG, TF-IDF retrieval, tool use, consensus mechanics, Google ADK, Gemini, OpenAI, Ollama, local models
-**Data:** MongoDB, H2, PostgreSQL
-**Tools:** Docker, Git, Maven, REST APIs, Streamlit
+- **Languages:** Java, Python, TypeScript, JavaScript, SQL
+- **Backend:** Spring Boot, REST APIs, Node.js, Express
+- **Frontend:** React, Angular, Next.js
+- **AI:** LLM integration, AI agents, RAG, MCP, local LLMs, Google ADK
+- **Data and Cloud:** MongoDB, Cassandra, MySQL, PostgreSQL, AWS, Docker, Kubernetes
+- **Testing and Monitoring:** JMeter, Grafana, Splunk, JUnit
 
 ---
 
-## Currently
-
-Actively seeking software engineering roles focused on **AI/agentic systems, full-stack, or backend**.-
-
-- 💼 [LinkedIn](https://www.linkedin.com/in/jeffrey-saelee/)
--
+Studying for a B.S. in Software Engineering at WGU (expected 2027) and open to backend, full-stack and AI engineering roles. [LinkedIn](https://www.linkedin.com/in/jeffrey-saelee/) · [jeffreysaelee.com](https://jeffreysaelee.com/)
