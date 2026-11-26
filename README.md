@@ -19,10 +19,13 @@ Privacy-first multi-agent assistant for family caregivers. A local LLM plans eac
 ### [memora-mcp](https://github.com/Servation/memora-mcp) and [Memora](https://github.com/Servation/Memora)
 Spaced-repetition flashcards two ways: an MCP App where Claude builds decks from a conversation and reviews them as inline flip cards, and a full-stack app that turns uploaded notes into flashcards. *TypeScript, MCP · Java, Spring Boot, React*
 
+### [OTTR](https://github.com/Servation/ottr-hft-quant-cockpit)
+US-markets paper-trading desk where Claude, GPT and Gemini read the same market data and a Claude chair decides the trades. Code sizes every order, enforces the risk limits and keeps the books on a simulated $10,000 account. *Python, Claude API, GPT, Gemini, Alpaca API*
+
 ### [Trivium](https://github.com/Servation/trivium)
 Multiplayer party trivia game with AI-generated, fact-checked questions. *Next.js, Supabase, OpenRouter*
 
-**Also:** [AuraSkill](https://github.com/Servation/AuraSkill) (hot-swappable agent skill runtime), [Vesper](https://github.com/Servation/vesper-context-reducer) (TF-IDF context reducer for LLMs), [Lore Spinner](https://github.com/Servation/lore-spinner) (multi-agent Dungeon Master), and a Pokémon TCG battle agent for a Kaggle challenge (Monte Carlo search with imitation-learned priors).
+**Also:** [AuraSkill](https://github.com/Servation/AuraSkill) (hot-swappable agent skill runtime), [Vesper](https://github.com/Servation/vesper-context-reducer) (TF-IDF context reducer for LLMs), [Lore Spinner](https://github.com/Servation/lore-spinner) (multi-agent Dungeon Master), and a Pokémon TCG battle agent that finished 920th of 6,807 teams (top 14%) in a Kaggle competition, using Monte Carlo search with imitation-learned priors.
 
 ---
 
